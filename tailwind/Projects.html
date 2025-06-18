@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="bg-[#2E4959]">
+    <header class="flex gap-10 bg-slate-900 w-10xl h-14 items-center px-2 justify-between fixed top-0 w-full z-3">
+        <div class="logo bg-slate-900 text-[#C1C8CD] text-3xl">Jesse Braaksma</div>
+        <nav>
+            <ul class="flex gap-5 bg-slate-900 text-[#C1C8CD] text-3xl">
+                <li>
+                    <a href="index.html">home</a>
+                </li>
+                <li>
+                    <a href="#">About me</a>
+                </li>
+                <li>
+                    <a href="Projects.html">Projects</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <button class="carousel_button"></button>
+            <div>
+                <ul class="carousel_track-container">
+                    <li class="carousel_track">
+                        <img src="slides-img/Hacksclusive_game.png" alt="Hacksclusive_game">
+                    </li>
+                    <li>
+                        <img src="slides-img/vr-prj.png" alt="vr-prj">
+                    </li>
+                    <li>
+                        <img src="slides-img/Hacksclusive_game.png" alt="Hacksclusive_game">
+                    </li>
+                    <li>
+                        <img src="slides-img/vr-prj.png" alt="vr-prj">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </main>
+    <footer class="bg-[#0D1A26] text-[#C1C8CD] text-center pt-5 flex items-center justify-center">
+        <div>
+            <h1 class="text-4xl">Contacts</h1>
+            <div class="grid grid-cols-2 gap-8 w-35 h-14 mt-2 mb-4">
+            <a href="https://www.linkedin.com/in/jessebraaksma/" target="_blank">
+                <img src="logo's/Linkedin.webp" alt="Linkedin">
+            </a>
+            <a href="https://github.com/fiplezer" target="_blank">
+                <img src="logo's/GitHub.webp" alt="Git">
+             </a>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
